@@ -1,0 +1,7 @@
+- name: DB Seed database with Sequelize
+  command: "node ./node_modules/sequelize-cli/lib/sequelize db:seed:all"
+  args:
+    chdir: "{{ appdir }}"
+  become: yes
+  become_user: "{{ userdba }}"
+  become_method: sudo

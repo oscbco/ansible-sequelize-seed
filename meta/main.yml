@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Oscar Barrera
+  role_name: sequelize-seed
+  description: Role for seeding a database using sequelize-cli
+  license: license (MIT)
+  min_ansible_version: 2.5
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+  galaxy_tags: []
+dependencies: []
